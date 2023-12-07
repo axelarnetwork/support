@@ -1,0 +1,6 @@
+blank_issues_enabled: false 
+
+contact_links:
+  - name: Got a Question?
+    url: https://axelar.network/faqs
+    about: "Check our FAQs for answers to common questions. If you don't find your answer there, please ask your question in our GitHub Discussions."
