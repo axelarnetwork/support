@@ -1,28 +1,18 @@
-name: 💬 General Feedback
-description: Provide general feedback or suggestions for Axelar.
-title: "[FEEDBACK] <brief description>"
-labels: ["🗣️ feedback"]
+name: Stuck? Ask a Question
+description: Ask a question about Axelar
+title: "[QUESTION] <brief description>"
+labels: ["🛠 question"]
 body:
   - type: input
     attributes:
-      label: Feedback Category
-      description: Please categorize your feedback (e.g., User Experience, Technical Issues, General Suggestions).
+      label: Question
+      description: What is your question?
     validations:
       required: true
   - type: textarea
-    id: feedback
+    id: details
     attributes:
-      label: Feedback Details
-      description: Describe your feedback in detail. Please provide specific examples or scenarios if applicable.
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Impact
-      description: What impact does this have on your experience or use of Axelar? (Optional)
+      label: Details
+      description: Please provide more details if needed
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        Your feedback is valuable to us. For further discussions, join our Discord [here](https://discord.com/invite/axelar)
