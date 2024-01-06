@@ -1,0 +1,18 @@
+name: Stuck? Ask a Question
+description: Ask a question about Axelar
+title: "[QUESTION] <brief description>"
+labels: ["🛠 question"]
+body:
+  - type: input
+    attributes:
+      label: Question
+      description: What is your question?
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Please provide more details if needed
+    validations:
+      required: false
